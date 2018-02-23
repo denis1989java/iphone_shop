@@ -1,0 +1,105 @@
+.loginRefer{
+    float: right;
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    font-size: 30px;
+}
+.loginForm{
+    width: 100%;
+    background-color: #929292;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+
+}
+.close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: white;
+
+}
+.close:before {
+    transform: rotate(45deg);
+}
+.close:after {
+    transform: rotate(-45deg);
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.logindiv{
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.formform{
+    float: left;
+    margin-left: 130px;
+    width: 600px;
+}
+
+
+
+.emailForm{
+    width: 600px;
+    float: left;
+    margin-bottom: 10px;
+}
+.passwordForm{
+    width: 600px;
+    float: left;
+}
+.emailForm>input{
+    float: right;
+    width: 400px;
+    height: 30px;
+}
+
+.passwordForm>input{
+    float: right;
+    width: 400px;
+    height: 30px;
+}
+.loginError{
+    width: 700px;
+    border: solid 2px #a7a7a7;
+    color: #cccccc;
+    float: left;
+    text-align: center;
+    margin-top: 18px;
+    margin-left: 40px;
+}
+
+.loginButton{
+    float: right;
+    width: 140px;
+    height: 80px;
+    border: solid white 3px;
+    color: #cccccc;
+    font-size: 30px;
+    background-color: #929292;
+}

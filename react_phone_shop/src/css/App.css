@@ -1,0 +1,263 @@
+
+.phones{
+  width: 1100px;
+  margin: 0 auto;
+  content: "";
+}
+img{
+  max-height: 200px;
+  border: solid 4px #cccccc;
+}
+.phone{
+  float:left;
+  text-align: center;
+  margin-left: 130px;
+  margin-top: 60px;
+}
+p{
+  color: white;
+  font-size: 23px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.loginRefer{
+  float: right;
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  font-size: 30px;
+}
+.logoutRefer{
+  float: right;
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  font-size: 30px;
+  color:white;
+}
+
+.close {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: white;
+
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+.loginButton{
+  float: right;
+  width: 140px;
+  height: 80px;
+  border: solid white 3px;
+  color: #cccccc;
+  font-size: 30px;
+  background-color: #929292;
+}
+a{
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.loginForm{
+  width: 100%;
+  background-color: #929292;
+  height: 200px;
+  margin: 0 auto;
+}
+.logindiv{
+  width: 900px;
+  margin: 0 auto;
+margin-top: 30px;
+}
+.emailForm{
+  width: 600px;
+  float: left;
+  margin-bottom: 10px;
+}
+.passwordForm{
+  width: 600px;
+  float: left;
+}
+.emailForm>input{
+  float: right;
+  width: 400px;
+  height: 30px;
+}
+
+.passwordForm>input{
+  float: right;
+  width: 400px;
+  height: 30px;
+}
+.formform{
+  float: left;
+  margin-left: 130px;
+  width: 600px;
+}
+
+label{
+  color: white;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.orderForm{
+  margin: 0 auto;
+  width: 900px;
+}
+.orderFormDiv{
+  width: 880px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 33px;
+}
+.orderInput{
+  float: right;
+  width: 680px;
+  height: 30px;
+  border: none;
+}
+.cvv{
+  float: right;
+  width: 100px;
+  height: 30px;
+  margin-right: 580px;
+  border: none;
+}
+.dropdown-input{
+  float: right;
+  width: 100px;
+  height: 30px;
+  margin-right: 580px;
+  background-color: white;
+  border: none;
+  font-size: 20px;
+  line-height: 30px;
+  color: #929292;
+  text-align: center;
+}
+.Dropdown-option{
+  background-color: white;
+}
+.Dropdown-option:hover{
+  cursor: pointer;
+  background-color:  #cccccc;
+  color: white;
+}
+.Dropdown-menu{
+  max-height: 100px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.Dropdown-menu:hover{
+  cursor: pointer;
+}
+.summ{
+  float: right;
+  width: 100px;
+  font-size: 30px;
+  margin-right: 580px;
+  margin-left: 0;
+  margin-top: 0;
+}
+.orderbut{
+  width: 880px;
+text-align: center;
+  margin-top: 10px;
+  margin-left: 33px;
+}
+.orderbut>button{
+  width: 300px;
+  height: 80px;
+  border: solid 3px white;
+  background-color: #cccccc;
+  color: white;
+  font-size: 30px;
+}
+.phoneActive{
+  float:left;
+  text-align: center;
+  margin-left: 130px;
+  margin-top: 60px;
+}
+.phoneActive>img{
+  max-height: 200px;
+  border: solid 4px #929292;
+}
+.loginError{
+  width: 700px;
+  border: solid 2px #a7a7a7;
+  color: #cccccc;
+  float: left;
+  text-align: center;
+  margin-top: 18px;
+  margin-left: 40px;
+}
+
+.orderTable{
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+  border: none;
+  color: white;
+  font-size: 30px;
+}
+.orderTable>th{
+  background-color: #929292;
+  width: 200px;
+}
+.orderTable>td{
+  background-color: #cccccc;
+  width: 200px;
+}
+
+.congrat{
+  margin: 0 auto;
+  width: 1100px;
+  text-align: center;
+}
+.congrat>h1{
+  color:#929292;
+  height: 600px;
+  line-height: 450px;
+}
+.congrat>p{
+  color: white;
+}
+.errors{
+  color: red;
+  margin-top: 0;
+  margin-left: 200px;
+  margin-bottom: 0;
+  font-size: 20px;
+}

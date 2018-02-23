@@ -1,0 +1,26 @@
+.phoneActive{
+    float:left;
+    text-align: center;
+    margin-left: 130px;
+    margin-top: 60px;
+}
+.phoneActive>img{
+    max-height: 200px;
+    border: solid 4px #929292;
+}
+.phone{
+    float:left;
+    text-align: center;
+    margin-left: 130px;
+    margin-top: 60px;
+}
+.phones{
+    width: 1100px;
+    margin: 0 auto;
+    content: "";
+}
+
+img{
+    max-height: 200px;
+    border: solid 4px #cccccc;
+}

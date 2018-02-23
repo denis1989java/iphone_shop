@@ -1,0 +1,84 @@
+.orderForm{
+    margin: 0 auto;
+    width: 900px;
+}
+.orderFormDiv{
+    width: 880px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 33px;
+}
+.orderInput{
+    float: right;
+    width: 680px;
+    height: 30px;
+    border: none;
+}
+.errors{
+    color: red;
+    margin-top: 0;
+    margin-left: 200px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.cvv{
+    float: right;
+    width: 100px;
+    height: 30px;
+    margin-right: 580px;
+    border: none;
+}
+
+
+.dropdown-input{
+    float: right;
+    width: 100px;
+    height: 30px;
+    margin-right: 580px;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    line-height: 30px;
+    color: #929292;
+    text-align: center;
+}
+.Dropdown-option{
+    background-color: white;
+}
+.Dropdown-option:hover{
+    cursor: pointer;
+    background-color:  #cccccc;
+    color: white;
+}
+.Dropdown-menu{
+    max-height: 100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.Dropdown-menu:hover{
+    cursor: pointer;
+}
+.summ{
+    float: right;
+    width: 100px;
+    font-size: 30px;
+    margin-right: 580px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+
+.orderbut{
+    width: 880px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 33px;
+}
+.orderbut>button{
+    width: 300px;
+    height: 80px;
+    border: solid 3px white;
+    background-color: #cccccc;
+    color: white;
+    font-size: 30px;
+}

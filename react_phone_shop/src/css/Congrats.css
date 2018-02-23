@@ -1,0 +1,14 @@
+
+.congrat{
+    margin: 0 auto;
+    width: 1100px;
+    text-align: center;
+}
+.congrat>h1{
+    color:#929292;
+    height: 600px;
+    line-height: 450px;
+}
+.congrat>p{
+    color: white;
+}
